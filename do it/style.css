@@ -1,0 +1,249 @@
+*{
+    
+    margin: 0%;
+    padding: 0;
+}
+@media  screen and (min-width:425px) {
+    
+body{
+    background: linear-gradient(rgb(158, 100, 139),rgb(164, 94, 245));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    resize: horizontal;
+}
+.button{
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background-color: rgb(228, 180, 24); 
+    width: 150px;
+    height: 10vh;
+    border: 2px solid;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 18px;
+    text-align: center;
+    color: cadetblue;
+    font-size: 19px;
+    font-family: cursive;
+}
+button:hover{
+    animation-name: button;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.wrapper{
+    border: 2px solid ;
+    padding: 20px;
+    /* background-color: rgb(87, 2, 2); */
+    box-shadow: 10px 8px 10px rgb(26, 12, 24);
+    background: linear-gradient( to top,rgb(59, 58, 59),rgb(8, 8, 8)); 
+    
+}
+#reg{
+    display: none;
+
+}
+.wrapper:hover{
+    scale: 1.1;    
+}
+#register{
+    background-color: rgb(228, 180, 24); 
+    width: 150px;
+    height: 10vh;
+    border: 2px solid;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    color: cadetblue;
+    font-size: 19px;
+    font-family: cursive;
+}
+#register:hover{
+    animation-name: button;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+.form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+input{
+    margin-top: 40px;
+    width: 295px;
+    height: 50px;
+    border-top: 0px;
+    border-radius: 10px;
+    padding: 7px;
+}
+#but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+#button{
+    border-radius: 20px;
+}
+
+@keyframes button{
+    0%{
+        animation-duration: 0.5s;
+        color: rgb(233, 232, 232);
+        /* background-color: rgb(228, 203, 63); */
+        background:linear-gradient(to right,rgb(228, 180, 24),rgb(230, 227, 65))
+    }
+    50%{
+        color: rgb(139, 139, 139);
+        animation-duration: 10s;
+        /* background-color: rgb(226, 207, 100); */
+        background:linear-gradient(to right,rgb(230, 227, 65),rgb(234, 236, 120))
+    }
+    75%{
+        /* background-color: rgb(219, 211, 162); */
+        color: rgb(77, 76, 76);
+
+        background:linear-gradient(to left,rgb(234, 236, 120),rgb(255, 255, 255))
+    }
+    100%{
+        /* background-color: rgb(240, 237, 221);  */
+        color: rgb(12, 12, 12);
+
+        background:radial-gradient(rgb(235, 238, 214),rgb(236, 236, 236));
+    }
+}
+}
+
+@media  screen and (max-width:425px){
+    body{
+        background: linear-gradient(rgb(158, 100, 139),rgb(164, 94, 245));
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        resize: horizontal;
+    }
+    .button{
+        align-items: center;
+        justify-content: center;
+    }
+    button{
+        background-color: rgb(228, 180, 24); 
+        width: 40vw;
+        height: 10vh;
+        border: 2px solid;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 18px;
+        text-align: center;
+        color: cadetblue;
+        font-size: 19px;
+        font-family: cursive;
+    }
+    button:hover{
+        animation-name: button;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      animation-fill-mode: forwards;
+    }
+    .wrapper{
+        border: 2px solid ;
+        padding: 20px;
+        /* background-color: rgb(87, 2, 2); */
+        box-shadow: 10px 8px 10px rgb(26, 12, 24);
+        background: linear-gradient( to top,rgb(59, 58, 59),rgb(8, 8, 8)); 
+        
+    }
+    #reg{
+        display: none;
+    
+    }
+    .wrapper:hover{
+        scale: 1.01;    
+    }
+    #register{
+        background-color: rgb(228, 180, 24); 
+        border: 2px solid;
+        border-top-right-radius: 18px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 18px;
+        border-top-left-radius: 5px;
+        text-align: center;
+        color: cadetblue;
+        font-size: 19px;
+        font-family: cursive;
+    }
+    #register:hover{
+        animation-name: button;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+      animation-fill-mode: forwards;
+    }
+    .form{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+    input{
+        margin-top: 20px;
+        width: 75vw;
+        height: 50px;
+        border-top: 0px;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    #but{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        border-radius: 10px;
+        
+    }
+    #button{
+        border-radius: 20px;
+    }
+    
+    @keyframes button{
+        0%{
+            animation-duration: 0.5s;
+            color: rgb(233, 232, 232);
+            /* background-color: rgb(228, 203, 63); */
+            background:linear-gradient(to right,rgb(228, 180, 24),rgb(230, 227, 65))
+        }
+        50%{
+            color: rgb(139, 139, 139);
+            animation-duration: 10s;
+            /* background-color: rgb(226, 207, 100); */
+            background:linear-gradient(to right,rgb(230, 227, 65),rgb(234, 236, 120))
+        }
+        75%{
+            /* background-color: rgb(219, 211, 162); */
+            color: rgb(77, 76, 76);
+    
+            background:linear-gradient(to left,rgb(234, 236, 120),rgb(255, 255, 255))
+        }
+        100%{
+            /* background-color: rgb(240, 237, 221);  */
+            color: rgb(12, 12, 12);
+    
+            background:radial-gradient(rgb(235, 238, 214),rgb(236, 236, 236));
+        }
+    }   
+}
